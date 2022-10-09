@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={darkMode && "dark"}>
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+        <section className="min-h-screen">
+          <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Hero />
+        </section>
+
+        <section className="mt-10">
+          <Services />
+        </section>
+
+        <section>
+          <Portfolio />
+        </section>
+      </main>
     </div>
   );
 }
