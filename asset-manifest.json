@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/IndraSaputraIdrus/reactjs-portfolio-1/static/css/main.b6e00b95.css",
+    "main.js": "/IndraSaputraIdrus/reactjs-portfolio-1/static/js/main.37e8f03f.js",
+    "static/media/web1.png": "/IndraSaputraIdrus/reactjs-portfolio-1/static/media/web1.b81ae95cc95d487b20fc.png",
+    "static/media/profile.png": "/IndraSaputraIdrus/reactjs-portfolio-1/static/media/profile.96fe79664ed9e871bb6f.png",
+    "static/media/design.png": "/IndraSaputraIdrus/reactjs-portfolio-1/static/media/design.9e6ea8290691c7efe827.png",
+    "index.html": "/IndraSaputraIdrus/reactjs-portfolio-1/index.html",
+    "main.b6e00b95.css.map": "/IndraSaputraIdrus/reactjs-portfolio-1/static/css/main.b6e00b95.css.map",
+    "main.37e8f03f.js.map": "/IndraSaputraIdrus/reactjs-portfolio-1/static/js/main.37e8f03f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6e00b95.css",
+    "static/js/main.37e8f03f.js"
+  ]
+}
